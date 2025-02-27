@@ -1,0 +1,53 @@
+main{
+    height: 100vh;
+}
+
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    color: antiquewhite;
+    font-size: 200px;
+    text-shadow: 20px 20px 15px #20201f;
+    text-decoration: 10px underline dotted;
+}
+
+p{
+    background-color: rgb(238, 184, 46);
+    font-size: 20px;
+}
+
+.extra-space {
+    display: block; 
+    height: 10px;   
+  }
+
+/* IMG */
+#bg1{
+background-image: url(src/mario-1557975_640.jpg);
+}
+
+#bg2{
+   background-image: url(src/mushroom-7010773_640.png); 
+}
+
+#bg3{
+    background-image: url(src/yoschi-1557253_640.jpg);
+}
+
+#bg4{
+    background-image: url(src/mushroom-7010764_640.png);
+}
+
+/* EFFECT */
+
+.parallax{
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
